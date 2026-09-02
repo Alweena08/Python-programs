@@ -1,0 +1,37 @@
+numbers = (10, 20, 30, 40)
+print("Tuple:", numbers)
+'''
+Access an item
+'''
+print("First item:", numbers[0])
+
+'''
+Add an item
+'''
+numbers = numbers + (50,)
+print("After adding:", numbers)
+
+'''
+Remove an item
+'''
+numbers = numbers[:2] + numbers[3:]
+print("After removing:", numbers)
+
+
+student = {"name": "Alweena", "age": 18}
+print("Dictionary:", student)
+
+'''
+Add an item
+'''
+student["marks"] = 80
+print("After adding:", student)
+
+'''
+Remove an item
+'''
+del student["age"]
+print("After removing:", student)
+
+
+
