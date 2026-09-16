@@ -1,0 +1,10 @@
+text = input("Enter a string: ")
+
+for ch in text:
+    if not ((ch >= 'a' and ch <= 'z') or
+            (ch >= 'A' and ch <= 'Z') or
+            (ch >= '0' and ch <= '9')):
+        print("Invalid string")
+        break
+else:
+    print("Valid string")
